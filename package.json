@@ -1,0 +1,17 @@
+{
+  "name": "practice-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hummingbird99/api-practice.git",
+  "author": "hummingbird99 <sseoulite@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  }
+}
